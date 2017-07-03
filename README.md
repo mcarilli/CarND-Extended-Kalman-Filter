@@ -18,8 +18,9 @@ However, here's some example output.
 
 ![Tracking car with EKF][ekf_tracking]
 
-Lidar measurements are red circles.
-Radar measurements are blue circles with an arrow pointing in the direction of the measured angle.
-The green markers are the car's position as estimated by the Kalman filter.
+Red circles are lidar measurements.
+Blue circles are radar measurements (position markers inferred from radius and angle; 
+the also-supplied radial velocity measurements are not shown).
+Green markers are the car's position as estimated by the Kalman filter.
 
 
