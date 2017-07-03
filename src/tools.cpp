@@ -65,12 +65,12 @@ VectorXd Tools::CalculateRMSE(const vector<VectorXd> &estimations,
   // Calculate the RMSE
   rmse = mse.array().sqrt();
 
-  cout << estimations.size() << endl;
+  // cout << estimations.size() << endl;
   if( rmse(0) > .11 ||
       rmse(1) > .11 ||
       rmse(2) > .52 ||
       rmse(3) > .52 )
-    cout << "Warning:  rmse = " 
+    cout << "Warning at timestep " << t << ":  rmse = " 
          << rmse(0) << "  " << rmse(1) << "  " 
          << rmse(2) << "  " << rmse(3) << endl
          << " currently exceeds tolerances of "

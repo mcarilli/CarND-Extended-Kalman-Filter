@@ -18,7 +18,7 @@ void KalmanFilter::Init( VectorXd &x_in,
     MatrixXd &Hj_in, 
     MatrixXd &R_in, 
     MatrixXd &R_ekf_in, 
-    MatrixXd &Q_in) 
+    MatrixXd &Q_in ) 
 {
   cout << "In KalmanFilter::Init" << endl;
   x_ = x_in;
