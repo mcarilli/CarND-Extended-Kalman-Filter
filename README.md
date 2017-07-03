@@ -14,8 +14,12 @@ accuracy than the individual measurements alone allow.
 
 The code presented here is designed to work with the
 Udacity term 2 simulation executable, and so cannot be run standalone.
-However, here's some example output:
+However, here's some example output.  
 
 ![Tracking car with EKF][ekf_tracking]
+
+Lidar measurements are red circles.
+Radar measurements are blue circles with an arrow pointing in the direction of the measured angle.
+The green markers are the car's position as estimated by the Kalman filter.
 
 
