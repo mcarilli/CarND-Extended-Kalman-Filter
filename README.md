@@ -1,4 +1,4 @@
-# Extended Kalman Filter Project Starter Code
+# Extended Kalman Filter
 
 [//]: # (Image References) 
 [ekf_tracking]: ./ekf_tracking.png
